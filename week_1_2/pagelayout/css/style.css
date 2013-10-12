@@ -1,0 +1,36 @@
+/* 
+
+Project Name: HTML & CSS Container
+Client: GA
+Author: Adela Pickles | www.twitter.com/AdelaP
+Developed @ General Assembly in London
+
+*/
+
+body {
+	background-image: url("../images/pattern1.png");
+
+} 
+
+#container {
+	margin: 10px auto;
+	background-color: white;
+	padding: 0px;
+	width: 600px;
+
+}
+header {
+	font-size: 20px; 
+	padding: 1px;
+	background-color: orange;
+
+}
+footer {
+	font-size: 10;
+	padding: 1px;
+	background-color: orange;
+}
+
+p {
+	margin-left: 60px;
+}

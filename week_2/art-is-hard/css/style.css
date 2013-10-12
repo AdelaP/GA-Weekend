@@ -1,0 +1,110 @@
+/*  Hi Felix - this was quite a hard exercise for beginners
+- with no image of what the end result should be I 
+stopped when the page looked a bit better but there 
+are probably more mistakes left in, I can't see the wood
+for the trees.
+
+I'm also having problems with Inspect Element - there are
+2 error warnings, but no obvious way to put them right.
+
+Hope you will be going over these in class tomorrow.
+
+Cheers
+Adela
+*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: black; 
+	line-height: 1.25;
+	background-image: "images/hipster-line.gif"  no-repeat;
+}
+
+#container {
+	margin: 0 auto;
+	width: 910px;
+}
+
+header {
+	padding: 140px 0 60px 0;
+}
+h1 {
+	font-size: 100px;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  color: #333;
+  line-height: .7;
+  font-family: sans-serif;
+  font-family: Courier;
+  letter-spacing: -2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 32px;
+  margin: 4px 0;
+  font-weight: normal;
+  padding: 0;
+  font-family: Courier;
+  line-height: 2.8em;
+}
+
+#main {
+	padding: 20px;
+}
+
+footer {
+	padding: 20px;
+	text-align: right;
+}
+h1,h2,h3,h4, p, ul, ol {
+	margin-bottom: 20px;
+}
+
+p {
+	margin: 15px 0;
+}
+
+header h2 {
+  font-size: 16px;
+  color: #999;
+  font-family: Courier;
+}
+
+
+a {
+	color: #ccc;
+	text-decoration: none;
+}
+	a:visited, a:hover, a:active {
+		color: #000;
+	}
+
+img.frame {
+	padding: 100px;
+	background: #fcfcfc;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 30px #ccc;
+
+}
+
+img.frame:hover {
+	padding: 100px;
+	background: #fcfcfc;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 40px #bbb;
+}
+
+.line {
+	margin: 25px 0;
+	border-bottom: 1px #CCC solid;
+}
+
+
+
+
+
+
+

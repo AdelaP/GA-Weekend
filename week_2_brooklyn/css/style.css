@@ -1,0 +1,32 @@
+/* === Layout === */
+
+body {
+	font-family: "Times New Roman", serif;
+	background-color: #F3EBE9;
+
+}
+#container {
+	width: 960px;
+	margin: 10px auto;
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+/* === Typography === */
+
+h1 {
+	text-transform: uppercase;
+	color: #656565;
+	font-family: "Helvetica", sans-serif;
+	font-weight: lighter;
+}
+img {
+	border: 3px #CCCCCC solid;
+}
+a img {
+	padding: 1px;
+}
+
+a {
+	text-decoration: none;
+}
