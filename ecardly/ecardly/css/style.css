@@ -37,6 +37,19 @@ body {
      width: 960px;
      margin: 0 auto;
 }
+
+main {
+     float: left;
+     width: 640px;
+}
+
+aside {
+     width: 290px;
+     float: left;
+     background-color: white;
+     margin: 10px 0px 0px 10px;
+}
+
 h1 {
      text-indent: 100%;
      white-space: nowrap;
