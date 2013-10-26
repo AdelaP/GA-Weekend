@@ -4,13 +4,122 @@
 /*        GENERAL             *
 /*****************************/	
 
+body {
+	
+	background: #b6bec7 url(../images/bg-gradient.jpg) repeat-x;
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	}
 
 
+#container {
+	width: 800px;
+	margin: 30px auto;
+	}
+
+#container article {
+	padding: 20px 30px;
+	clear: both;
+	background-color: white;
+	}
 
 
 /*****************************/		
 /*  CSS SPRITE NAVIGATION     *
 /*****************************/	
 	
+nav li {
+	float: left;
+	}
+/*floating list items inside nav*/
 
-	
+nav li a {
+	background: url(../images/menu-sprite.jpg) no-repeat;
+/*	background image*/
+
+	display: block;
+	height: 60px;
+/*	the image behind shows small part	*/
+
+	text-indent: -100%;
+/*	text gets squashed together*/
+
+	overflow: hidden;
+/*	text disappears*/
+
+	white-space: nowrap;
+
+	margin-right: 15px;
+	/*	we are inside the link now*/
+	}
+
+/* SWAPPING TEXT FOR IMAGES
+- can also use the browser to work out values if Sprite Cow doesnt work
+- see SCREENSHOT 2*/
+
+/*IMAGE REPLACEMENT*/
+nav li.home a {
+	width: 115px;
+	}
+/*	give me a link a (anchor tage) inside a list item with a class of "home
+	inside my nav bar*/
+
+nav li.about a {
+	width: 120px;
+	}
+
+nav li.contact a {
+	width: 160px;
+	}
+
+/* This is where you move the HOME up one in order to accommodate
+the little tail for the box */
+
+nav li.home a {
+	background-position: -5px -5px;
+	}
+/*normal state for "home"*/
+
+
+/*HOVER STATES*/
+nav li.home a:hover {
+	background-position: -5px -75px;
+	}
+/*- hover state for "home"*/
+
+
+
+nav li.home a.selected {
+	background-position: -5px -145px;
+	}
+
+/*------This is where we got to in the study group - we'd covered
+everything so go home to practice--------*/
+
+nav li.about a {
+	background-position: -125px -5px;
+	}
+
+nav li.about a:hover {
+	background-position: -125px -75px;
+	}
+nav li.about a.selected {
+	background-position: -125px -145px;
+	}
+
+
+nav li.contact a {
+	background-position: -250px -5px;
+	}
+
+nav li.contact a:hover {
+	background-position: -250px -75px;
+	}
+
+nav li.contact a.selected {
+	background-position: -250px -145px;
+	}
+
+
+
+
