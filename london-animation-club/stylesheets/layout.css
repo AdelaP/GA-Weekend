@@ -1,0 +1,358 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* #SITE STYLES
+================================================== */
+
+/* Table of Content
+==================================================
+	#Headers & headings
+	#Generic styles
+    #Navigation
+    #Sidebar
+    #Main content
+    #Footer incl social media nav
+    #Call to action (cta) and modal box
+	#Media queries */
+
+/* #Headers & headings
+================================================== */
+
+h1 {
+	background: url('../images/LAC_logo_960_negative.jpg') no-repeat;
+	display: block;
+	text-indent: -9999px;
+    width: 100%;
+    background-size: 100%;
+    min-height: 191px;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* #Generic styles
+================================================== */
+
+body {
+    font-family: Arial,Tahoma,Helvetica,'sans Serif';
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+    color: #000;
+}
+
+img {
+	border-color: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.smallText {
+	font-size: 12px;
+}
+
+#bluebar {
+	background: #3ffadb;
+	height: 10px;
+	margin-top: -6px;
+}
+
+iframe {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.content {
+    padding: 15px;
+}
+
+/* #Navigation
+================================================== */
+
+nav {
+	background: #000;
+    width: 100%;
+    float: left;
+    margin-top: -1px;
+    border-bottom: #3ffadb 10px solid;
+}
+
+nav ul, nav ul li {
+	margin: 0;
+}
+
+nav ul a {
+	padding: 10px; 
+	margin-left: 10px;
+	float: left;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+    color: #fff;
+}
+
+nav ul a:hover {
+    background-image: url("../images/bg_nav_rollover.png");
+}
+
+nav ul, nav ul li.active a {
+    background-color: #3ffadb;
+    color: #000;
+}
+
+/* #Sidebar
+================================================== */
+
+.container .columns.sidebar {
+	background-color: #3ffadb;
+    height: 100%;
+    margin-left: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sidebar a {
+	color: #000;
+	text-decoration: none;
+
+}
+.sidebar a:hover {
+	color: #fff;
+}
+
+.middleSection {
+    background-color: #3ffadb;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contentSection {
+    border-bottom: #000 2px solid;
+    margin-bottom: 15px;
+}
+
+.contentSection:last-of-type {
+    border-bottom: none;
+}
+
+.toggle h3 a {
+    background: url("../images/toggleArrow.png") no-repeat 0 11px;
+    padding-left: 20px;
+}
+
+.toggle.open h3 a {
+    background-position: 0 -27px;
+
+}
+
+.toggle p {
+    display: none;
+}
+
+/* #Main content
+================================================== */
+
+.container .columns.mainContent {
+	font-size: 14px;
+	background-color: #d6d28b;
+    margin-right: 0;
+    padding-right: 10px;
+}
+
+.links li { 
+	margin: 0; 
+}
+
+.links a {
+	font-size: 16px;
+}
+
+.links a:hover {
+	color: #fff;
+}
+
+figcaption {
+	margin-bottom: 15px;
+}
+
+/* #Footer incl social media nav
+================================================== */
+
+#footer {
+	background: #000;
+	display: block;
+}
+
+.copyright {
+	float: left;
+	margin-left: 15px;
+	margin-top: 35px;
+	color: #fff;
+}
+
+#socialmedia li a {
+	text-indent: 100%;
+	overflow: hidden;
+	display: block;
+	margin-right: 15px;
+	height: 56px;
+	width: 57px;
+	background-image: url('../images/sprite-nav.png');
+	float: right;
+	background-position-y: 56px;
+	margin-bottom: 20px;
+}
+
+#socialmedia li a:hover {
+	background-position-y: 0px;
+}
+
+li.youtube a {
+	background-position-x: 254px;
+}
+ 
+li.twitter a {
+	background-position-x: 188px;
+}
+
+li.facebook a {
+	background-position-x: 122px;
+}
+
+li.email a {
+	background-position-x: 56px;
+}
+
+/* #Call to action (cta) and modal box
+================================================== */
+
+.cta img {
+    -webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 3px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 3px rgba(50, 50, 50, 0.75);
+    margin-top: 30px;
+}
+
+.cta:hover img {
+    -webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 1);
+    box-shadow:         0px 0px 5px rgba(50, 50, 50, 1);
+}
+
+.modal {
+	display: none;
+}
+
+.modalOverlay {
+	background: rgba(0, 0, 0, 0.75);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.modalInner {
+	background: #fff;
+	height: 200px;
+	width: 250px;
+	padding: 25px;
+    text-align: center;
+	position: fixed;
+	z-index: 2000;
+	top: 50%;
+	left: 50%;
+	margin: -125px 0px 0px -150px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+}
+
+.modalInner p {
+	font-size: 18px;
+}
+
+.modalInner a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.modalInner a:hover {
+    text-decoration: underline;
+}
+
+.modalClose {
+	background: #fff url(../images/closeCross.png) no-repeat 3px 3px;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	text-indent: -9999px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 3px #000;
+	-webkit-box-shadow: 0 0 3px #000;
+	box-shadow: 0 0 3px #000;
+}
+
+.modalClose:hover {
+	background: #fff url(../images/closeCross.png) no-repeat -18px 3px;
+}
+
+/* #Media queries
+================================================== */
+
+@media only screen and (max-width: 975px) {
+    h1 {
+        min-height: 152px;
+    }
+}
+@media only screen and (max-width: 781px) {
+    h1 {
+        min-height: 85px;
+    }
+    .middleSection {
+        margin: 0;
+    }
+    .container .columns.sidebar, .container .columns.mainContent {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 493px) {
+    h1 {
+        min-height: 61px;
+    }
+}
